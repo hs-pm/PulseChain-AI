@@ -1,0 +1,38 @@
+method	metric_id
+as on date	price
+as on date	market_cap_fully_diluted
+as on date	market_cap_circulating
+sum	token_trading_volume
+as on date	tokenholders
+as on date	tvl
+sum	transaction_volume
+sum	trading_volume
+sum	transfer_volume
+sum	fees
+sum	fees_supply_side
+sum	revenue
+sum	expenses
+sum	cost_of_revenue
+sum	operating_expenses
+sum	token_incentives
+sum	gross_profit
+sum	earnings
+sum	voting_incentives
+as on date	treasury
+as on date	user_dau
+as on date	user_wau
+as on date	user_mau
+as on date	active_addresses_daily
+as on date	active_addresses_monthly
+as on date	active_developers
+sum	code_commits
+sum	trade_count
+sum	transaction_count
+sum	gas_used
+sum	total_transaction_fees
+sum	unique_transacting_wallets
+sum	tokenholder_revenue
+need to derive	trading_volume_avg_per_trade_count
+need to derive	transactions_per_second
+need to derive	trading_volume_avg_per_user
+need to derive	transaction_fee_average
